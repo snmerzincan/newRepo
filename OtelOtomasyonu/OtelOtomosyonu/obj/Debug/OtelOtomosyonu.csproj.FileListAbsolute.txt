@@ -1,0 +1,177 @@
+c:\users\wissen\documents\visual studio 2012\Projects\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe.config
+C:\Users\wissen\documents\visual studio 2012\Projects\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csprojResolveAssemblyReference.cache
+C:\Users\wissen\documents\visual studio 2012\Projects\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriBilgileri.resources
+C:\Users\wissen\documents\visual studio 2012\Projects\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmAnasayfa.resources
+C:\Users\wissen\documents\visual studio 2012\Projects\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmGiris.resources
+C:\Users\wissen\documents\visual studio 2012\Projects\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csproj.GenerateResource.Cache
+C:\Users\wissen\documents\visual studio 2012\Projects\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.Properties.Resources.resources
+C:\Users\wissen\documents\visual studio 2012\Projects\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe
+C:\Users\wissen\documents\visual studio 2012\Projects\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.pdb
+C:\Users\wissen\documents\visual studio 2012\Projects\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.exe
+C:\Users\wissen\documents\visual studio 2012\Projects\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.pdb
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe.config
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.exe
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.pdb
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csprojResolveAssemblyReference.cache
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriBilgileri.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmAnasayfa.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmGiris.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.Properties.Resources.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csproj.GenerateResource.Cache
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe.config
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.exe
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.pdb
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriBilgileri.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmAnasayfa.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmGiris.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmPersonelKayit.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.Properties.Resources.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csproj.GenerateResource.Cache
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.pdb
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmRezervasyon.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriKayıt.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmOdaSorgulama.resources
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe.config
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.exe
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.pdb
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.pdb
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csprojResolveAssemblyReference.cache
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriBilgileri.resources
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmAnasayfa.resources
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmEkstralar.resources
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmGiris.resources
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmPersonelKayit.resources
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmRezervasyon.resources
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmOdaSorgulama.resources
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.Properties.Resources.resources
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csproj.GenerateResource.Cache
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmTahsilatEkranı.resources
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmDetayliMusteriKayit.resources
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriKayit.resources
+C:\Users\HP Pavilion\Desktop\Outlook.com\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriAra.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe.config
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.exe
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.pdb
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.pdb
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csprojResolveAssemblyReference.cache
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriBilgileri.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmAnasayfa.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmEkstralar.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmGiris.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmDetayliMusteriKayit.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriAra.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriKayit.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmPersonelKayit.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmRezervasyon.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmOdaSorgulama.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmTahsilatEkranı.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.Properties.Resources.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu (1)\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csproj.GenerateResource.Cache
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe.config
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.exe
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.pdb
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.pdb
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csprojResolveAssemblyReference.cache
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriBilgileri.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmAnasayfa.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmEkstralar.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmGiris.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmDetayliMusteriKayit.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriAra.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriKayit.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmPersonelKayit.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmRezervasyon.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmOdaSorgulama.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmTahsilatEkranı.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.Properties.Resources.resources
+C:\Users\T.E.K\Downloads\OtelOtomosyonu 22052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csproj.GenerateResource.Cache
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe.config
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.exe
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.pdb
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.pdb
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csprojResolveAssemblyReference.cache
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriBilgileri.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmAnasayfa.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmEkstralar.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmGiris.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmDetayliMusteriKayit.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriAra.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriKayit.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmPersonelKayit.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmRezervasyon.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmOdaSorgulama.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmTahsilatEkranı.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.Properties.Resources.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csproj.GenerateResource.Cache
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe.config
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.exe
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.pdb
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.pdb
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csprojResolveAssemblyReference.cache
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriBilgileri.resources
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmAnasayfa.resources
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmEkstralar.resources
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmGiris.resources
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmDetayliMusteriKayit.resources
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriAra.resources
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriKayit.resources
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmPersonelKayit.resources
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmRezervasyon.resources
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmOdaSorgulama.resources
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmTahsilatEkranı.resources
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.Properties.Resources.resources
+C:\Users\T.E.K\Desktop\OtelOtomosyonu 23052016\OtelOtomosyonu 23052016\OtelOtomosyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csproj.GenerateResource.Cache
+C:\Users\HP Pavilion\Desktop\Gökçe Sinem Tuğrul\OtelOtomasyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe.config
+C:\Users\HP Pavilion\Desktop\Gökçe Sinem Tuğrul\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.exe
+C:\Users\HP Pavilion\Desktop\Gökçe Sinem Tuğrul\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.pdb
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe.config
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.exe
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.pdb
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.pdb
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csprojResolveAssemblyReference.cache
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriBilgileri.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmAnasayfa.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmEkstralar.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmGiris.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmDetayliMusteriKayit.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriAra.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriKayit.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmPersonelKayit.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmRezervasyon.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmOdaSorgulama.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmTahsilatEkranı.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.Properties.Resources.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csproj.GenerateResource.Cache
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmPersonelAra.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmOdaDuzenleme.resources
+C:\Users\HP Pavilion\Desktop\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmCheckOut.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe.config
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.exe
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.pdb
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.exe
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\bin\Debug\OtelOtomosyonu.pdb
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csprojResolveAssemblyReference.cache
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriBilgileri.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmAnasayfa.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmCheckOut.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmEkstralar.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmGiris.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmDetayliMusteriKayit.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriAra.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmMusteriKayit.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmOdaDuzenleme.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmPersonelAra.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmPersonelKayit.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmRezervasyon.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmOdaSorgulama.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.frmTahsilatEkranı.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.Properties.Resources.resources
+C:\Users\T.E.K\Downloads\OtelOtomasyonu 30052016\OtelOtomasyonu\OtelOtomosyonu\obj\Debug\OtelOtomosyonu.csproj.GenerateResource.Cache

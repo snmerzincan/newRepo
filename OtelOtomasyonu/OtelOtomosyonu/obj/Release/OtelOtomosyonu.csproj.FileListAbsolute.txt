@@ -1,0 +1,10 @@
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\bin\Release\OtelOtomosyonu.exe.config
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Release\OtelOtomosyonu.frmMusteriBilgileri.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Release\OtelOtomosyonu.frmAnasayfa.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Release\OtelOtomosyonu.frmGiris.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Release\OtelOtomosyonu.frmMusteriKayıt.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Release\OtelOtomosyonu.frmPersonelKayit.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Release\OtelOtomosyonu.frmRezervasyon.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Release\OtelOtomosyonu.Oda_Sorgulama.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Release\OtelOtomosyonu.Properties.Resources.resources
+C:\Users\wissen\Desktop\OtelOtomosyonu\OtelOtomosyonu\obj\Release\OtelOtomosyonu.csproj.GenerateResource.Cache
