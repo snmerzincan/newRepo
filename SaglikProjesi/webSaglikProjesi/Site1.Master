@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="webSaglikProjesi.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sağlık Ürünleri e-ticaret sitesi masterpage</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/style/style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+             <div id="wrap">
+                <div id="header">
+                    <h1><a href="Default.aspx">SAĞLIK ÜRÜNLERİ</a></h1>
+                    <h2>Online satış sitesi</h2>
+                </div>
+                <div id="top"></div>
+                <div id="contentt">
+                    <div id="headermenu">
+                        <div class="headerm">
+                            <ul>
+                                <li><a href="Default.aspx">Ana sayfa</a></li>
+                                <li><a href="Products.aspx">Ürünlerim</a></li>
+                                <li><a href="Sepet.aspx">Sepetim</a></li>
+                                <li><a href="#">SSSorular</a></li>
+                                <li><a href="#">Hakkımızda</a></li>
+                                <li><a href="#">İletişim</a></li>
+                                <li><a href="UyeKayit.aspx">Üye Kayıt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <h2>Kategoriler</h2>
+                        <asp:Menu ID="mnuKategoriler" runat="server" BackColor="#FFFBD6" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" OnMenuItemClick="mnuKategoriler_MenuItemClick" StaticSubMenuIndent="10px">
+                            <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <DynamicMenuStyle BackColor="#FFFBD6" />
+                            <DynamicSelectedStyle BackColor="#FFCC66" />
+                            <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <StaticSelectedStyle BackColor="#FFCC66" />
+                        </asp:Menu>
+                    </div>
+                    <div class="middle">
+                        <h2>Ürünler</h2>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div class="right">
+                        <h2 id="Baslik2">Sepet Özeti</h2>
+                        <asp:GridView ID="gvsepetozet" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" ShowFooter="True" Width="199px">
+                            <AlternatingRowStyle BackColor="White" />
+                            <Columns>
+                                <asp:BoundField DataField="urunAd" HeaderText="ürünadı" />
+                                <asp:BoundField DataField="adet" HeaderText="Adet" />
+                            </Columns>
+                            <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                            <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                            <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
+                            <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
+                            <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
+                            <SortedAscendingCellStyle BackColor="#FDF5AC" />
+                            <SortedAscendingHeaderStyle BackColor="#4D0000" />
+                            <SortedDescendingCellStyle BackColor="#FCF6C0" />
+                            <SortedDescendingHeaderStyle BackColor="#820000" />
+                        </asp:GridView>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                <div id="bottom"></div>
+                <div id ="footer">@Copyright MS-YAZ-10 Yazılım 2016</div>
+            </div>
+    </form>
+</body>
+</html>
