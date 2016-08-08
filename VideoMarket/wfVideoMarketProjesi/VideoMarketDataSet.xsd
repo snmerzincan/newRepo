@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="VideoMarketDataSet" targetNamespace="http://tempuri.org/VideoMarketDataSet.xsd" xmlns:mstns="http://tempuri.org/VideoMarketDataSet.xsd" xmlns="http://tempuri.org/VideoMarketDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="VideoMarketConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="VideoMarketConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.wfVideoMarketProjesi.Properties.Settings.GlobalReference.Default.VideoMarketConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_DetayliSatisTableAdapter" GeneratorDataComponentClassName="vw_DetayliSatisTableAdapter" Name="vw_DetayliSatis" UserDataComponentName="vw_DetayliSatisTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="VideoMarketConnectionString (Settings)" DbObjectName="VideoMarket.dbo.vw_DetayliSatis" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IslemTarihi, FilmAd, Musteri, Adet, BirimFiyat, Tutar FROM dbo.vw_DetayliSatis</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IslemTarihi" DataSetColumn="IslemTarihi" />
+              <Mapping SourceColumn="FilmAd" DataSetColumn="FilmAd" />
+              <Mapping SourceColumn="Musteri" DataSetColumn="Musteri" />
+              <Mapping SourceColumn="Adet" DataSetColumn="Adet" />
+              <Mapping SourceColumn="BirimFiyat" DataSetColumn="BirimFiyat" />
+              <Mapping SourceColumn="Tutar" DataSetColumn="Tutar" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="VideoMarketDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="VideoMarketDataSet" msprop:Generator_UserDSName="VideoMarketDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vw_DetayliSatis" msprop:Generator_TableClassName="vw_DetayliSatisDataTable" msprop:Generator_TableVarName="tablevw_DetayliSatis" msprop:Generator_TablePropName="vw_DetayliSatis" msprop:Generator_RowDeletingName="vw_DetayliSatisRowDeleting" msprop:Generator_RowChangingName="vw_DetayliSatisRowChanging" msprop:Generator_RowEvHandlerName="vw_DetayliSatisRowChangeEventHandler" msprop:Generator_RowDeletedName="vw_DetayliSatisRowDeleted" msprop:Generator_UserTableName="vw_DetayliSatis" msprop:Generator_RowChangedName="vw_DetayliSatisRowChanged" msprop:Generator_RowEvArgName="vw_DetayliSatisRowChangeEvent" msprop:Generator_RowClassName="vw_DetayliSatisRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IslemTarihi" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnIslemTarihi" msprop:Generator_ColumnPropNameInRow="IslemTarihi" msprop:Generator_ColumnPropNameInTable="IslemTarihiColumn" msprop:Generator_UserColumnName="IslemTarihi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FilmAd" msprop:Generator_ColumnVarNameInTable="columnFilmAd" msprop:Generator_ColumnPropNameInRow="FilmAd" msprop:Generator_ColumnPropNameInTable="FilmAdColumn" msprop:Generator_UserColumnName="FilmAd">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Musteri" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMusteri" msprop:Generator_ColumnPropNameInRow="Musteri" msprop:Generator_ColumnPropNameInTable="MusteriColumn" msprop:Generator_UserColumnName="Musteri" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="41" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Adet" msprop:Generator_ColumnVarNameInTable="columnAdet" msprop:Generator_ColumnPropNameInRow="Adet" msprop:Generator_ColumnPropNameInTable="AdetColumn" msprop:Generator_UserColumnName="Adet" type="xs:int" />
+              <xs:element name="BirimFiyat" msprop:Generator_ColumnVarNameInTable="columnBirimFiyat" msprop:Generator_ColumnPropNameInRow="BirimFiyat" msprop:Generator_ColumnPropNameInTable="BirimFiyatColumn" msprop:Generator_UserColumnName="BirimFiyat" type="xs:decimal" />
+              <xs:element name="Tutar" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTutar" msprop:Generator_ColumnPropNameInRow="Tutar" msprop:Generator_ColumnPropNameInTable="TutarColumn" msprop:Generator_UserColumnName="Tutar" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
