@@ -1,0 +1,184 @@
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\roslyn\csc.exe
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\roslyn\System.Collections.Immutable.dll
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\roslyn\vbc.exe
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe.config
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll.config
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\webprojetasarım.pdb
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.csprojResolveAssemblyReference.cache
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.dll
+c:\users\wissen\documents\visual studio 2015\Projects\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.pdb
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\csc.exe
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\vbc.exe
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll.config
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\webprojetasarım.pdb
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.dll
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.pdb
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\csc.exe
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\vbc.exe
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll.config
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\webprojetasarım.pdb
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.dll
+C:\Users\wissen\Desktop\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.pdb
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.csprojResolveAssemblyReference.cache
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\EntityFramework.dll
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\EntityFramework.SqlServer.dll
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\EntityFramework.xml
+C:\Users\HP Pavilion\Desktop\webprojetasarım\webprojetasarım\bin\EntityFramework.SqlServer.xml
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\roslyn\csc.exe
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\roslyn\vbc.exe
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll.config
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\webprojetasarım.pdb
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\EntityFramework.dll
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\EntityFramework.SqlServer.dll
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\EntityFramework.xml
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\EntityFramework.SqlServer.xml
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.dll
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.pdb
+C:\Users\HP Pavilion\Desktop\projesonhali\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.csprojResolveAssemblyReference.cache
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\roslyn\csc.exe
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\roslyn\vbc.exe
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll.config
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\webprojetasarım.pdb
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.dll
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.SqlServer.dll
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.xml
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.SqlServer.xml
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.csprojResolveAssemblyReference.cache
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.dll
+C:\Users\HP Pavilion\Desktop\projeson\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.pdb
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\csc.exe
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\vbc.exe
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll.config
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\webprojetasarım.pdb
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.SqlServer.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.xml
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.SqlServer.xml
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.csprojResolveAssemblyReference.cache
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.pdb
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\csc.exe
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\vbc.exe
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll.config
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\webprojetasarım.pdb
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.dll
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.SqlServer.dll
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.xml
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.SqlServer.xml
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.csprojResolveAssemblyReference.cache
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.dll
+C:\Users\HP Pavilion\Desktop\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.pdb
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\csc.exe
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\vbc.exe
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll.config
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\webprojetasarım.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\webprojetasarım.pdb
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.SqlServer.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.xml
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\EntityFramework.SqlServer.xml
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.csprojResolveAssemblyReference.cache
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.dll
+C:\Users\T.E.K\Desktop\Yeni klasör (2)\teslimgünü\SONGECESOONN\projeson\webprojetasarım\webprojetasarım\obj\Debug\webprojetasarım.pdb

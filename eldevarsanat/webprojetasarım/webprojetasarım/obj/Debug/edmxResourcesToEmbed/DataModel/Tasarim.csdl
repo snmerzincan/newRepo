@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SETEKwebprojeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AltKategori">
+    <Key>
+      <PropertyRef Name="AltKategoriID" />
+    </Key>
+    <Property Name="AltKategoriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AltKategoriAd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="KategoriID" Type="Int32" Nullable="false" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Silindi" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Kategoriler" Relationship="Self.FK_AltKategori_Kategoriler" FromRole="AltKategori" ToRole="Kategoriler" />
+  </EntityType>
+  <EntityType Name="Firmalar">
+    <Key>
+      <PropertyRef Name="FirmaID" />
+    </Key>
+    <Property Name="FirmaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirmaAd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FirmaTel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FirmaEposta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FirmaAdres" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Silindi" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Siparisler" Relationship="Self.FK_Siparisler_Firmalar" FromRole="Firmalar" ToRole="Siparisler" />
+  </EntityType>
+  <EntityType Name="Kategoriler">
+    <Key>
+      <PropertyRef Name="KategoriID" />
+    </Key>
+    <Property Name="KategoriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KategoriAd" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Silindi" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="AltKategori" Relationship="Self.FK_AltKategori_Kategoriler" FromRole="Kategoriler" ToRole="AltKategori" />
+    <NavigationProperty Name="Urunler" Relationship="Self.FK_Urunler_Kategoriler" FromRole="Kategoriler" ToRole="Urunler" />
+  </EntityType>
+  <EntityType Name="SatisAnaliz">
+    <Key>
+      <PropertyRef Name="SatisID" />
+    </Key>
+    <Property Name="SatisID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SiparisID" Type="Int32" Nullable="false" />
+    <Property Name="Adet" Type="Int32" Nullable="false" />
+    <Property Name="ToplamTutar" Type="Decimal" Precision="19" Scale="4" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="FirmaID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Siparisler" Relationship="Self.FK_SatisAnaliz_Siparisler" FromRole="SatisAnaliz" ToRole="Siparisler" />
+  </EntityType>
+  <EntityType Name="Siparisler">
+    <Key>
+      <PropertyRef Name="SiparisID" />
+    </Key>
+    <Property Name="SiparisID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirmaID" Type="Int32" Nullable="false" />
+    <Property Name="UrunID" Type="Int32" Nullable="false" />
+    <Property Name="SiparisNumarasi" Type="Int32" />
+    <Property Name="Tarih" Type="DateTime" Precision="3" />
+    <Property Name="Tutar" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="OdemeID" Type="Int32" Nullable="false" />
+    <Property Name="Silindi" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Firmalar" Relationship="Self.FK_Siparisler_Firmalar" FromRole="Siparisler" ToRole="Firmalar" />
+    <NavigationProperty Name="SatisAnaliz" Relationship="Self.FK_SatisAnaliz_Siparisler" FromRole="Siparisler" ToRole="SatisAnaliz" />
+    <NavigationProperty Name="Urunler" Relationship="Self.FK_Siparisler_Urunler" FromRole="Siparisler" ToRole="Urunler" />
+    <Property Name="KullaniciID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Kullanicilar" Relationship="SETEKwebprojeModel.FK_Siparisler_Musteriler1" FromRole="Siparisler" ToRole="Kullanicilar" />
+    <Property Name="TeslimTarihi" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Odeme" Relationship="SETEKwebprojeModel.FK_Siparisler_Odeme" FromRole="Siparisler" ToRole="Odeme" />
+    <Property Name="Fiyat" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="UrunAd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Miktar" Type="Int32" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Urunler">
+    <Key>
+      <PropertyRef Name="UrunID" />
+    </Key>
+    <Property Name="UrunID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UrunKodu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UrunAd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="KategoriID" Type="Int32" Nullable="false" />
+    <Property Name="AltKategoriID" Type="Int32" Nullable="false" />
+    <Property Name="FirmaID" Type="Int32" Nullable="false" />
+    <Property Name="Miktar" Type="Int32" Nullable="false" />
+    <Property Name="Fiyat" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="YorumID" Type="Int32" />
+    <Property Name="ResimYolu1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ResimYolu2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ResimYolu3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Silindi" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Kategoriler" Relationship="Self.FK_Urunler_Kategoriler" FromRole="Urunler" ToRole="Kategoriler" />
+    <NavigationProperty Name="Siparisler" Relationship="Self.FK_Siparisler_Urunler" FromRole="Urunler" ToRole="Siparisler" />
+  </EntityType>
+  <EntityType Name="Yorumlar">
+    <Key>
+      <PropertyRef Name="YorumID" />
+    </Key>
+    <Property Name="YorumID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UrunID" Type="Int32" Nullable="false" />
+    <Property Name="Yorum" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Silindi" Type="Boolean" Nullable="false" />
+    <Property Name="KullaniciID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_AltKategori_Kategoriler">
+    <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="1" />
+    <End Role="AltKategori" Type="Self.AltKategori" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategoriler">
+        <PropertyRef Name="KategoriID" />
+      </Principal>
+      <Dependent Role="AltKategori">
+        <PropertyRef Name="KategoriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Siparisler_Firmalar">
+    <End Role="Firmalar" Type="Self.Firmalar" Multiplicity="1" />
+    <End Role="Siparisler" Type="Self.Siparisler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Firmalar">
+        <PropertyRef Name="FirmaID" />
+      </Principal>
+      <Dependent Role="Siparisler">
+        <PropertyRef Name="FirmaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Urunler_Kategoriler">
+    <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="1" />
+    <End Role="Urunler" Type="Self.Urunler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategoriler">
+        <PropertyRef Name="KategoriID" />
+      </Principal>
+      <Dependent Role="Urunler">
+        <PropertyRef Name="KategoriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SatisAnaliz_Siparisler">
+    <End Role="Siparisler" Type="Self.Siparisler" Multiplicity="1" />
+    <End Role="SatisAnaliz" Type="Self.SatisAnaliz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Siparisler">
+        <PropertyRef Name="SiparisID" />
+      </Principal>
+      <Dependent Role="SatisAnaliz">
+        <PropertyRef Name="SiparisID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Siparisler_Urunler">
+    <End Role="Urunler" Type="Self.Urunler" Multiplicity="1" />
+    <End Role="Siparisler" Type="Self.Siparisler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urunler">
+        <PropertyRef Name="UrunID" />
+      </Principal>
+      <Dependent Role="Siparisler">
+        <PropertyRef Name="UrunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SETEKwebprojeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AltKategori" EntityType="Self.AltKategori" />
+    <EntitySet Name="Firmalar" EntityType="Self.Firmalar" />
+    <EntitySet Name="Kategoriler" EntityType="Self.Kategoriler" />
+    <EntitySet Name="SatisAnaliz" EntityType="Self.SatisAnaliz" />
+    <EntitySet Name="Siparisler" EntityType="Self.Siparisler" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Urunler" EntityType="Self.Urunler" />
+    <EntitySet Name="Yorumlar" EntityType="Self.Yorumlar" />
+    <AssociationSet Name="FK_AltKategori_Kategoriler" Association="Self.FK_AltKategori_Kategoriler">
+      <End Role="Kategoriler" EntitySet="Kategoriler" />
+      <End Role="AltKategori" EntitySet="AltKategori" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Siparisler_Firmalar" Association="Self.FK_Siparisler_Firmalar">
+      <End Role="Firmalar" EntitySet="Firmalar" />
+      <End Role="Siparisler" EntitySet="Siparisler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Urunler_Kategoriler" Association="Self.FK_Urunler_Kategoriler">
+      <End Role="Kategoriler" EntitySet="Kategoriler" />
+      <End Role="Urunler" EntitySet="Urunler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SatisAnaliz_Siparisler" Association="Self.FK_SatisAnaliz_Siparisler">
+      <End Role="Siparisler" EntitySet="Siparisler" />
+      <End Role="SatisAnaliz" EntitySet="SatisAnaliz" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Siparisler_Urunler" Association="Self.FK_Siparisler_Urunler">
+      <End Role="Urunler" EntitySet="Urunler" />
+      <End Role="Siparisler" EntitySet="Siparisler" />
+    </AssociationSet>
+    <EntitySet Name="Kullanicilar" EntityType="SETEKwebprojeModel.Kullanicilar" />
+    <AssociationSet Name="FK_Siparisler_Musteriler1" Association="SETEKwebprojeModel.FK_Siparisler_Musteriler1">
+      <End Role="Kullanicilar" EntitySet="Kullanicilar" />
+      <End Role="Siparisler" EntitySet="Siparisler" />
+    </AssociationSet>
+    <EntitySet Name="Odeme" EntityType="SETEKwebprojeModel.Odeme" />
+    <AssociationSet Name="FK_Siparisler_Odeme" Association="SETEKwebprojeModel.FK_Siparisler_Odeme">
+      <End Role="Odeme" EntitySet="Odeme" />
+      <End Role="Siparisler" EntitySet="Siparisler" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Kullanicilar">
+    <Key>
+      <PropertyRef Name="KullaniciID" />
+    </Key>
+    <Property Name="KullaniciID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KullaniciAdi" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Admin" Type="Boolean" Nullable="false" />
+    <Property Name="Ad" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Soyad" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TCKNo" Type="String" Nullable="false" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="Telefon" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Adres" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="il" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ilce" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Silindi" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Siparisler" Relationship="SETEKwebprojeModel.FK_Siparisler_Musteriler1" FromRole="Kullanicilar" ToRole="Siparisler" />
+    <Property Name="Sifre" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_Siparisler_Musteriler1">
+    <End Type="SETEKwebprojeModel.Kullanicilar" Role="Kullanicilar" Multiplicity="1" />
+    <End Type="SETEKwebprojeModel.Siparisler" Role="Siparisler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kullanicilar">
+        <PropertyRef Name="KullaniciID" />
+      </Principal>
+      <Dependent Role="Siparisler">
+        <PropertyRef Name="KullaniciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Odeme">
+    <Key>
+      <PropertyRef Name="OdemeID" />
+    </Key>
+    <Property Name="OdemeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ODemeTipi" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Siparisler" Relationship="SETEKwebprojeModel.FK_Siparisler_Odeme" FromRole="Odeme" ToRole="Siparisler" />
+  </EntityType>
+  <Association Name="FK_Siparisler_Odeme">
+    <End Type="SETEKwebprojeModel.Odeme" Role="Odeme" Multiplicity="1" />
+    <End Type="SETEKwebprojeModel.Siparisler" Role="Siparisler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Odeme">
+        <PropertyRef Name="OdemeID" />
+      </Principal>
+      <Dependent Role="Siparisler">
+        <PropertyRef Name="OdemeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SETEKwebprojeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AltKategori">
+    <Key>
+      <PropertyRef Name="AltKategoriID" />
+    </Key>
+    <Property Name="AltKategoriID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AltKategoriAd" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="KategoriID" Type="int" Nullable="false" />
+    <Property Name="Aciklama" Type="varchar(max)" />
+    <Property Name="Silindi" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Firmalar">
+    <Key>
+      <PropertyRef Name="FirmaID" />
+    </Key>
+    <Property Name="FirmaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirmaAd" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FirmaTel" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="FirmaEposta" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FirmaAdres" Type="varchar(max)" />
+    <Property Name="Aciklama" Type="varchar(max)" />
+    <Property Name="Silindi" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Kategoriler">
+    <Key>
+      <PropertyRef Name="KategoriID" />
+    </Key>
+    <Property Name="KategoriID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KategoriAd" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Aciklama" Type="varchar(max)" />
+    <Property Name="Silindi" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Kullanicilar">
+    <Key>
+      <PropertyRef Name="KullaniciID" />
+    </Key>
+    <Property Name="KullaniciID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KullaniciAdi" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Sifre" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Admin" Type="bit" Nullable="false" />
+    <Property Name="Ad" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Soyad" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="TCKNo" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="Telefon" Type="varchar" MaxLength="20" />
+    <Property Name="Adres" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="il" Type="varchar" MaxLength="50" />
+    <Property Name="ilce" Type="varchar" MaxLength="50" />
+    <Property Name="Silindi" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Odeme">
+    <Key>
+      <PropertyRef Name="OdemeID" />
+    </Key>
+    <Property Name="OdemeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ODemeTipi" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SatisAnaliz">
+    <Key>
+      <PropertyRef Name="SatisID" />
+    </Key>
+    <Property Name="SatisID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SiparisID" Type="int" Nullable="false" />
+    <Property Name="Adet" Type="int" Nullable="false" />
+    <Property Name="FirmaID" Type="int" Nullable="false" />
+    <Property Name="ToplamTutar" Type="money" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="Siparisler">
+    <Key>
+      <PropertyRef Name="SiparisID" />
+    </Key>
+    <Property Name="SiparisID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirmaID" Type="int" Nullable="false" />
+    <Property Name="UrunID" Type="int" Nullable="false" />
+    <Property Name="KullaniciID" Type="int" Nullable="false" />
+    <Property Name="UrunAd" Type="varchar" MaxLength="50" />
+    <Property Name="Fiyat" Type="money" Nullable="false" />
+    <Property Name="Tutar" Type="money" Nullable="false" />
+    <Property Name="SiparisNumarasi" Type="int" />
+    <Property Name="Miktar" Type="int" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="TeslimTarihi" Type="datetime" />
+    <Property Name="OdemeID" Type="int" Nullable="false" />
+    <Property Name="Silindi" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Urunler">
+    <Key>
+      <PropertyRef Name="UrunID" />
+    </Key>
+    <Property Name="UrunID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UrunKodu" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="UrunAd" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="KategoriID" Type="int" Nullable="false" />
+    <Property Name="AltKategoriID" Type="int" Nullable="false" />
+    <Property Name="FirmaID" Type="int" Nullable="false" />
+    <Property Name="Miktar" Type="int" Nullable="false" />
+    <Property Name="Fiyat" Type="money" Nullable="false" />
+    <Property Name="Aciklama" Type="varchar(max)" />
+    <Property Name="YorumID" Type="int" />
+    <Property Name="ResimYolu1" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ResimYolu2" Type="varchar" MaxLength="50" />
+    <Property Name="ResimYolu3" Type="varchar" MaxLength="50" />
+    <Property Name="Silindi" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Yorumlar">
+    <Key>
+      <PropertyRef Name="YorumID" />
+    </Key>
+    <Property Name="YorumID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KullaniciID" Type="int" Nullable="false" />
+    <Property Name="UrunID" Type="int" Nullable="false" />
+    <Property Name="Yorum" Type="varchar(max)" />
+    <Property Name="Silindi" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_AltKategori_Kategoriler">
+    <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="1" />
+    <End Role="AltKategori" Type="Self.AltKategori" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategoriler">
+        <PropertyRef Name="KategoriID" />
+      </Principal>
+      <Dependent Role="AltKategori">
+        <PropertyRef Name="KategoriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Siparisler_Firmalar">
+    <End Role="Firmalar" Type="Self.Firmalar" Multiplicity="1" />
+    <End Role="Siparisler" Type="Self.Siparisler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Firmalar">
+        <PropertyRef Name="FirmaID" />
+      </Principal>
+      <Dependent Role="Siparisler">
+        <PropertyRef Name="FirmaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Siparisler_Musteriler">
+    <End Role="Kullanicilar" Type="Self.Kullanicilar" Multiplicity="1" />
+    <End Role="Siparisler" Type="Self.Siparisler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kullanicilar">
+        <PropertyRef Name="KullaniciID" />
+      </Principal>
+      <Dependent Role="Siparisler">
+        <PropertyRef Name="KullaniciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Siparisler_Odeme">
+    <End Role="Odeme" Type="Self.Odeme" Multiplicity="1" />
+    <End Role="Siparisler" Type="Self.Siparisler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Odeme">
+        <PropertyRef Name="OdemeID" />
+      </Principal>
+      <Dependent Role="Siparisler">
+        <PropertyRef Name="OdemeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Siparisler_Urunler">
+    <End Role="Urunler" Type="Self.Urunler" Multiplicity="1" />
+    <End Role="Siparisler" Type="Self.Siparisler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urunler">
+        <PropertyRef Name="UrunID" />
+      </Principal>
+      <Dependent Role="Siparisler">
+        <PropertyRef Name="UrunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Urunler_Kategoriler">
+    <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="1" />
+    <End Role="Urunler" Type="Self.Urunler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategoriler">
+        <PropertyRef Name="KategoriID" />
+      </Principal>
+      <Dependent Role="Urunler">
+        <PropertyRef Name="KategoriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SETEKwebprojeModelStoreContainer">
+    <EntitySet Name="AltKategori" EntityType="Self.AltKategori" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Firmalar" EntityType="Self.Firmalar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kategoriler" EntityType="Self.Kategoriler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kullanicilar" EntityType="Self.Kullanicilar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Odeme" EntityType="Self.Odeme" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SatisAnaliz" EntityType="Self.SatisAnaliz" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Siparisler" EntityType="Self.Siparisler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Urunler" EntityType="Self.Urunler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Yorumlar" EntityType="Self.Yorumlar" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_AltKategori_Kategoriler" Association="Self.FK_AltKategori_Kategoriler">
+      <End Role="Kategoriler" EntitySet="Kategoriler" />
+      <End Role="AltKategori" EntitySet="AltKategori" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Siparisler_Firmalar" Association="Self.FK_Siparisler_Firmalar">
+      <End Role="Firmalar" EntitySet="Firmalar" />
+      <End Role="Siparisler" EntitySet="Siparisler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Siparisler_Musteriler" Association="Self.FK_Siparisler_Musteriler">
+      <End Role="Kullanicilar" EntitySet="Kullanicilar" />
+      <End Role="Siparisler" EntitySet="Siparisler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Siparisler_Odeme" Association="Self.FK_Siparisler_Odeme">
+      <End Role="Odeme" EntitySet="Odeme" />
+      <End Role="Siparisler" EntitySet="Siparisler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Siparisler_Urunler" Association="Self.FK_Siparisler_Urunler">
+      <End Role="Urunler" EntitySet="Urunler" />
+      <End Role="Siparisler" EntitySet="Siparisler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Urunler_Kategoriler" Association="Self.FK_Urunler_Kategoriler">
+      <End Role="Kategoriler" EntitySet="Kategoriler" />
+      <End Role="Urunler" EntitySet="Urunler" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

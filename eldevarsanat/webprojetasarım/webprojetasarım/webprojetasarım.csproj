@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DB947E57-5F2C-4709-945D-D644956279FD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>webprojetasarım</RootNamespace>
+    <AssemblyName>webprojetasarım</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.aspx" />
+    <Content Include="Admin\AdminPaneli.aspx" />
+    <Content Include="Admin\Adminİslemleri.ascx" />
+    <Content Include="Admin\AltKategoriEkle.aspx" />
+    <Content Include="Admin\img\seteklogo.png" />
+    <Content Include="Admin\img\seteklogobanner.png" />
+    <Content Include="Admin\img\seteklogokucuk.png" />
+    <Content Include="Admin\KategoriEkle.aspx" />
+    <Content Include="Admin\UrunEkle.aspx" />
+    <Content Include="Admin\WebForm1.aspx" />
+    <Content Include="Adres.aspx" />
+    <Content Include="AdresDuzenle.aspx" />
+    <Content Include="Bloglar.aspx" />
+    <Content Include="BlogAciklama.aspx" />
+    <Content Include="FaturaBilgileri.aspx" />
+    <Content Include="GizlilikPolitikasi.aspx" />
+    <Content Include="img\Odeme.png" />
+    <Content Include="img\ProfilResimleri\EzgiliTasarımlar_Profil.png" />
+    <Content Include="img\ProfilResimleri\kmdukkani.jpg" />
+    <Content Include="img\ProfilResimleri\KucukMucizeler_Profil.png" />
+    <Content Include="img\ProfilResimleri\MadamCasi_Profil.png" />
+    <Content Include="img\seteklogo.png" />
+    <Content Include="img\seteklogobanner.png" />
+    <Content Include="img\seteklogokucuk.png" />
+    <Content Include="img\SliderResimleri\EzgiliTasarımlar_kokulutasisimlik.png" />
+    <Content Include="img\SliderResimleri\KucukMucizeler_kolonyasiseleri.png" />
+    <Content Include="img\SliderResimleri\MadamCasi_minimumlar.png" />
+    <Content Include="img\TasarımAlanları\EzgiliTasarımlar_kokulutasbanyoaksesuarı.png" />
+    <Content Include="img\TasarımAlanları\KucukMucizeler_kapısüsü.png" />
+    <Content Include="img\TasarımAlanları\MadamCasi_nikahsekeri.png" />
+    <Content Include="img\teslimatresmi\1470282418_ChirstmaxShop_car.ico" />
+    <Content Include="img\teslimatresmi\1470282472_meanicons_7.png" />
+    <Content Include="img\teslimatresmi\1470282484_meanicons_7.png" />
+    <Content Include="img\teslimatresmi\1470282486_meanicons_7.png" />
+    <Content Include="img\teslimatresmi\1470282505_van.png" />
+    <Content Include="img\urunimages\menu.png" />
+    <Content Include="KontrolPaneli.aspx" />
+    <Content Include="OdemeSekli.aspx" />
+    <Content Include="Onizleme.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="Profil.aspx" />
+    <Content Include="SifremiUnuttum.aspx" />
+    <Content Include="Site1.Master" />
+    <Content Include="SepeteEkle.aspx" />
+    <EntityDeploy Include="DataModel\Tasarim.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Tasarim.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="DataModel\Tasarim.edmx.diagram">
+      <DependentUpon>Tasarim.edmx</DependentUpon>
+    </Content>
+    <Content Include="Admin\Admin.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Anasayfa.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Hakkimizda.aspx" />
+    <Content Include="Sepet.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="SiparisOzeti.aspx" />
+    <Content Include="TamamlananSiparis.aspx" />
+    <Content Include="DataModel\Tasarim.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Tasarim.edmx</DependentUpon>
+      <LastGenOutput>Tasarim.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DataModel\Tasarim.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Tasarim.edmx</DependentUpon>
+      <LastGenOutput>Tasarim.cs</LastGenOutput>
+    </Content>
+    <Content Include="template\404.htm" />
+    <Content Include="template\about-us.htm" />
+    <Content Include="template\account-address.htm" />
+    <Content Include="template\account-all-orders.htm" />
+    <Content Include="template\account-dashboard.htm" />
+    <Content Include="template\account-profile.htm" />
+    <Content Include="template\account-single-order.htm" />
+    <Content Include="template\account-wishlist.htm" />
+    <Content Include="template\blog-fullwidth.htm" />
+    <Content Include="template\blog-left-sidebar.htm" />
+    <Content Include="template\blog-right-sidebar.htm" />
+    <Content Include="template\blog-single-fullwidth.htm" />
+    <Content Include="template\blog-single-left-sidebar.htm" />
+    <Content Include="template\blog-single-right-sidebar.htm" />
+    <Content Include="template\cart-page.htm" />
+    <Content Include="template\checkout-complete.htm" />
+    <Content Include="template\checkout-step-1.htm" />
+    <Content Include="template\checkout-step-2.htm" />
+    <Content Include="template\checkout-step-3.htm" />
+    <Content Include="template\checkout-step-4.htm" />
+    <Content Include="template\coming-soon.htm" />
+    <Content Include="index.htm" />
+    <Content Include="template\login.htm" />
+    <Content Include="template\lost-password.htm" />
+    <Content Include="template\privacy-policy.htm" />
+    <Content Include="template\product-grid-3-col-filter.htm" />
+    <Content Include="template\product-grid-3-col.htm" />
+    <Content Include="template\product-grid-4-col.htm" />
+    <Content Include="template\product-grid-left-sidebar.htm" />
+    <Content Include="template\product-grid-right-sidebar.htm" />
+    <Content Include="template\product-list-left-sidebar.htm" />
+    <Content Include="template\product-list-right-sidebar.htm" />
+    <Content Include="template\signup-login.htm" />
+    <Content Include="template\signup.htm" />
+    <Content Include="template\single-product.htm" />
+    <Content Include="template\terms-and-conditions.htm" />
+    <Content Include="TeslimatSekli.aspx" />
+    <Content Include="TumSiparisler.aspx" />
+    <Content Include="UrunDetayi.aspx" />
+    <Content Include="UrunGridGorunum.aspx" />
+    <Content Include="UrunListGorunum.aspx" />
+    <Content Include="UyeOl.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminPaneli.aspx.cs">
+      <DependentUpon>AdminPaneli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminPaneli.aspx.designer.cs">
+      <DependentUpon>AdminPaneli.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Adminİslemleri.ascx.cs">
+      <DependentUpon>Adminİslemleri.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Adminİslemleri.ascx.designer.cs">
+      <DependentUpon>Adminİslemleri.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AltKategoriEkle.aspx.cs">
+      <DependentUpon>AltKategoriEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AltKategoriEkle.aspx.designer.cs">
+      <DependentUpon>AltKategoriEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\KategoriEkle.aspx.cs">
+      <DependentUpon>KategoriEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\KategoriEkle.aspx.designer.cs">
+      <DependentUpon>KategoriEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UrunEkle.aspx.cs">
+      <DependentUpon>UrunEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UrunEkle.aspx.designer.cs">
+      <DependentUpon>UrunEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adres.aspx.cs">
+      <DependentUpon>Adres.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adres.aspx.designer.cs">
+      <DependentUpon>Adres.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdresDuzenle.aspx.cs">
+      <DependentUpon>AdresDuzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdresDuzenle.aspx.designer.cs">
+      <DependentUpon>AdresDuzenle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Anasayfa.aspx.cs">
+      <DependentUpon>Anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anasayfa.aspx.designer.cs">
+      <DependentUpon>Anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bloglar.aspx.cs">
+      <DependentUpon>Bloglar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bloglar.aspx.designer.cs">
+      <DependentUpon>Bloglar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlogAciklama.aspx.cs">
+      <DependentUpon>BlogAciklama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlogAciklama.aspx.designer.cs">
+      <DependentUpon>BlogAciklama.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\AltKategori.cs">
+      <DependentUpon>Tasarim.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Firmalar.cs">
+      <DependentUpon>Tasarim.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Kategoriler.cs">
+      <DependentUpon>Tasarim.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Kullanicilar.cs">
+      <DependentUpon>Tasarim.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Odeme.cs">
+      <DependentUpon>Tasarim.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\SatisAnaliz.cs">
+      <DependentUpon>Tasarim.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Siparisler.cs">
+      <DependentUpon>Tasarim.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\sysdiagrams.cs">
+      <DependentUpon>Tasarim.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Urunler.cs">
+      <DependentUpon>Tasarim.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Yorumlar.cs">
+      <DependentUpon>Tasarim.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FaturaBilgileri.aspx.cs">
+      <DependentUpon>FaturaBilgileri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FaturaBilgileri.aspx.designer.cs">
+      <DependentUpon>FaturaBilgileri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GizlilikPolitikasi.aspx.cs">
+      <DependentUpon>GizlilikPolitikasi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GizlilikPolitikasi.aspx.designer.cs">
+      <DependentUpon>GizlilikPolitikasi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Hakkimizda.aspx.cs">
+      <DependentUpon>Hakkimizda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hakkimizda.aspx.designer.cs">
+      <DependentUpon>Hakkimizda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SepetIslem.cs" />
+    <Compile Include="Sepet.aspx.cs">
+      <DependentUpon>Sepet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sepet.aspx.designer.cs">
+      <DependentUpon>Sepet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KontrolPaneli.aspx.cs">
+      <DependentUpon>KontrolPaneli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KontrolPaneli.aspx.designer.cs">
+      <DependentUpon>KontrolPaneli.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OdemeSekli.aspx.cs">
+      <DependentUpon>OdemeSekli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OdemeSekli.aspx.designer.cs">
+      <DependentUpon>OdemeSekli.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Onizleme.aspx.cs">
+      <DependentUpon>Onizleme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Onizleme.aspx.designer.cs">
+      <DependentUpon>Onizleme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profil.aspx.cs">
+      <DependentUpon>Profil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profil.aspx.designer.cs">
+      <DependentUpon>Profil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SifremiUnuttum.aspx.cs">
+      <DependentUpon>SifremiUnuttum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SifremiUnuttum.aspx.designer.cs">
+      <DependentUpon>SifremiUnuttum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiparisOzeti.aspx.cs">
+      <DependentUpon>SiparisOzeti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiparisOzeti.aspx.designer.cs">
+      <DependentUpon>SiparisOzeti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TamamlananSiparis.aspx.cs">
+      <DependentUpon>TamamlananSiparis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TamamlananSiparis.aspx.designer.cs">
+      <DependentUpon>TamamlananSiparis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Tasarim.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tasarim.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Tasarim.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tasarim.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Tasarim.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tasarim.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="TeslimatSekli.aspx.cs">
+      <DependentUpon>TeslimatSekli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeslimatSekli.aspx.designer.cs">
+      <DependentUpon>TeslimatSekli.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TumSiparisler.aspx.cs">
+      <DependentUpon>TumSiparisler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TumSiparisler.aspx.designer.cs">
+      <DependentUpon>TumSiparisler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UrunDetayi.aspx.cs">
+      <DependentUpon>UrunDetayi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UrunDetayi.aspx.designer.cs">
+      <DependentUpon>UrunDetayi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UrunGridGorunum.aspx.cs">
+      <DependentUpon>UrunGridGorunum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UrunGridGorunum.aspx.designer.cs">
+      <DependentUpon>UrunGridGorunum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UrunListGorunum.aspx.cs">
+      <DependentUpon>UrunListGorunum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UrunListGorunum.aspx.designer.cs">
+      <DependentUpon>UrunListGorunum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UyeOl.aspx.cs">
+      <DependentUpon>UyeOl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyeOl.aspx.designer.cs">
+      <DependentUpon>UyeOl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SepeteEkle.aspx.cs">
+      <DependentUpon>SepeteEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SepeteEkle.aspx.designer.cs">
+      <DependentUpon>SepeteEkle.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\css\" />
+    <Folder Include="Admin\js\" />
+    <Folder Include="Admin\options\" />
+    <Folder Include="Admin\plugins\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="css\" />
+    <Folder Include="js\" />
+    <Folder Include="options\" />
+    <Folder Include="plugins\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>35531</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:35531/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
